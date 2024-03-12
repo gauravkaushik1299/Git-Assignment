@@ -1,0 +1,44 @@
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ touch task.txt
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    1st task.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        task.txt
+
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ git add task.txt
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    1st task.txt -> task.txt
+
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ git rm --cached task.txt
+rm 'task.txt'
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    1st task.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        task.txt
+
+
+HP@Anonymous99 MINGW64 ~/Desktop/Git Assignment (master)
+$
